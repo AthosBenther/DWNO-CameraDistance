@@ -3,7 +3,7 @@ A Digimon World Next Order mod
 
 Raises the camera distance limit from the caracter. No more giant digimons taking all the screen space!
 
-1. Install the Requirements/Download this Link
+1. Install [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) Bleeding Edge [^667](https://builds.bepinex.dev/projects/bepinex_be/667/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.667%2B6b500b3.zip)
 2. Extract the zip file and move the contents into your Digimon World Next Order directory (Steam\steamapps\common\Digimon World Next Order)
 3. Run the game to let the BepInEx to properly install
 4. Exit game
