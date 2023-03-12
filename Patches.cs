@@ -15,6 +15,6 @@ class Patches
         __instance.distanceScaleMax = Plugin.c_distanceScaleMax.Value;
         __instance.distanceScaleMin = Plugin.c_distanceScaleMin.Value;
         __instance.offset           = new Vector3(Plugin.c_offsetX.Value, Plugin.c_offsetY.Value, Plugin.c_offsetZ.Value);
-        __instance.distance         = Plugin.c_defaultDistance.Value;
+        __instance.distanceScale    = Plugin.c_defaultDistanceScale.Value;
     }
 }

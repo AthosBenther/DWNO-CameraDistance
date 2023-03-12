@@ -28,14 +28,14 @@ public class Plugin : BasePlugin
     static public ConfigEntry<float> c_offsetX;
     static public ConfigEntry<float> c_offsetY;
     static public ConfigEntry<float> c_offsetZ;
-    static private ConfigEntry<float> _c_defaultDistance;
+    static private ConfigEntry<float> _c_defaultDistanceScale;
 
     private ConfigEntry<string> configGreeting;
     private ConfigEntry<bool> configDisplayGreeting;
 
-    static public ConfigEntry<float> c_defaultDistance
+    static public ConfigEntry<float> c_defaultDistanceScale
     {
-        get { return _c_defaultDistance; }
+        get { return _c_defaultDistanceScale; }
         set
         {
             float input = value.Value;
@@ -51,7 +51,7 @@ public class Plugin : BasePlugin
             }
             else
             {
-                _c_defaultDistance = value;
+                _c_defaultDistanceScale = value;
             }
         }
     }
@@ -71,7 +71,7 @@ public class Plugin : BasePlugin
         c_offsetX = Config.Bind("CameraFieldScript", "offsetX", 0.75f, "The X target point displacement of the camera, in relation to the character");
         c_offsetY = Config.Bind("CameraFieldScript", "offsetY", 1.25f, "The Y target point displacement of the camera, in relation to the character");
         c_offsetZ = Config.Bind("CameraFieldScript", "offsetZ", 0.5f, "The Z target point displacement of the camera, in relation to the character");
-        c_defaultDistance = Config.Bind("CameraFieldScript", "defaultDistance", 1f, "The default distance the camera will be every time it is loaded");
+        c_defaultDistanceScale = Config.Bind("CameraFieldScript", "defaultDistanceScale", 5f, "The default distance the camera will be every time it is loaded");
     }
 
     public override void Load()
