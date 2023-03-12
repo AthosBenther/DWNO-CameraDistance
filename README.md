@@ -1,7 +1,7 @@
 # DWNO-CameraDistance
 A Digimon World Next Order mod
 
-Raises the camera distance limit from the caracter. No more giant digimons taking all the screen space!
+Exposes some of the Field Camera configurations, such as max distance, which raises the camera distance limit from the character. No more giant digimons taking all the screen space!
 
 1. Install [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) Bleeding Edge [^667](https://builds.bepinex.dev/projects/bepinex_be/667/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.667%2B6b500b3.zip)
 2. Extract the zip file and move the contents into your Digimon World Next Order directory (Steam\steamapps\common\Digimon World Next Order)
